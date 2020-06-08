@@ -7,6 +7,6 @@ def my_collect(array) # put argument(s) here
     array[s] = result
     s += 1
   end 
-  return result
+  return array
 end
 
