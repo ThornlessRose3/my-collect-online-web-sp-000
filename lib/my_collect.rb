@@ -6,6 +6,6 @@ def my_collect(array) # put argument(s) here
     yield result << (array[s])
     s += 1
   end 
-  return array
+  return result
 end
 
