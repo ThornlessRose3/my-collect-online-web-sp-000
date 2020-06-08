@@ -3,8 +3,7 @@ def my_collect(array) # put argument(s) here
   result = []
   s = 0
   while s < l
-    yield result = (array[s])
-    binding.pry
+    yield (array[s])
     yield result = array[s]
     s += 1
   end 
