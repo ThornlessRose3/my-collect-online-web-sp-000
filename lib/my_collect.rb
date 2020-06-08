@@ -6,6 +6,6 @@ def my_collect(array) # put argument(s) here
     result[s] = yield array[s]
     s += 1
   end 
-  return array
+  return result
 end
 
